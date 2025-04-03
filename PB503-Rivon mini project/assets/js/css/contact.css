@@ -1,0 +1,242 @@
+.contact-div{
+    height: 200px;
+    width: 100%;
+    background-color:#f1f1f1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-div h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+  
+}
+
+.contact-div a{
+    text-decoration: none;
+    color: black;
+    font-size: small ;
+  
+}
+
+.contact-div a:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.contact-info {
+    flex: 1;
+    padding-right: 50px;
+}
+.contact-info h1 {
+    font-size: 40px;
+    
+}
+.contact-info p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+    width: 600px;
+
+}
+.contact-info strong {
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-form {
+    width: 685px;
+    height: 640px;
+    background-color: #f5f5f5;
+    padding: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    
+}
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color:  #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    
+}
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.contact-form button:hover {
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #E6F0F0;
+    padding: 90px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-column p, .footer-column a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-top: 19px;
+}
+.footer-column p{
+    
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F7E6F0;
+    max-width: 300px;
+}
+.subscribe input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    background: none;
+}
+.subscribe button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #E6F0F0;
+}
+.payment-icons img {
+    width: 40px;
+    margin: 5px;
+}
+
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F7E6F0;
+    max-width: 300px;
+}
+.subscribe .icon {
+    margin-left: 10px;
+}
+.subscribe input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    background: none;
+    width: 100px;
+}
+.subscribe button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer-bottom {
+    text-align: center;
+   
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #E6F0F0;
+}
+.payment-icons img {
+    width: 40px;
+    margin: 5px;
+}
+
+.payment-icons .footer__payment ul{
+   display: flex;
+}
+
+.list-payment__item {
+    align-items: center;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    padding-right: 90px;
+    
+}
+
+hr{
+    margin: 0%;
+    padding: 0%;
+}

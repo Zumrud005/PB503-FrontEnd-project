@@ -1,0 +1,761 @@
+.top-header {
+    background-color: #111;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.top-header a {
+    color: white;
+    text-decoration: none;
+}
+.top-header a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    margin-left: 10px;
+}
+.currency-lang {
+    cursor: pointer;
+}
+
+  .social-icons a:hover .fa-facebook-f {
+    color: #1877F2;
+}
+.social-icons a:hover .fa-instagram {
+    color: #C13584;
+}
+.social-icons a:hover .fa-youtube {
+    color: #FF0000; 
+}
+.social-icons a:hover .fa-twitter {
+    color: #1DA1F2; 
+}
+.social-icons a:hover .fa-pinterest {
+    color: #BD081C; 
+}
+.currency-lang {
+    cursor: pointer;
+}
+.dropdown-toggle { 
+    cursor: pointer; 
+}
+
+.navbar {
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    
+}
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #333;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icons a {
+    font-size: 20px;
+    color: #333;
+    margin-left: 15px;
+    position: relative;
+}
+.icons a:hover {
+    color: #007bff;
+}
+.icon-badge {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 1px 7px;
+}
+
+
+
+
+
+
+.follow-rivon-div h2{
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.follow-rivon-div p{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image-div{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.image-div .photos{
+    width: 325px;
+    height: 255px;
+    border: 1px solid #ffffffe3;
+    overflow: hidden; 
+   
+}
+
+.image-div .photos img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+
+.image-div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.image-div .photos {
+    position: relative;
+    width: 325px;
+    height: 255px;
+    border: 1px solid #ffffffe3;
+    overflow: hidden; 
+    border-radius: 8px;
+}
+
+.image-div .photos img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+
+.image-div .photos:hover img {
+    transform: scale(1.1);
+}
+
+
+.image-div .photos::after {
+    content: "\f16d"; 
+    font-family: "Font Awesome 5 Brands" !important; 
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease, background 0.3s ease;
+    z-index: 10;
+}
+
+
+.image-div .photos:hover::after {
+    opacity: 1;
+    background-color: #111;
+
+}
+
+
+.image-div .photos a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+
+
+
+.testimonial-container {
+    position: relative;
+    overflow: hidden;
+    width: 1285px;
+    margin: auto;
+    padding: 0px 50px;
+}
+.testimonial-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.testimonial-card {
+    background: #cacbcc3a;
+    height: 331px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;   
+    flex: 0 0 50%;
+    margin: 0 1%;
+    margin-bottom: 80px;
+  
+}
+
+.testimonial-card h5{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.testimonial-card p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.testimonial-card h4{
+    font-size: 14px;
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+.testimonial-card h6{
+    font-size: 12px;
+    margin-top: 1px;
+    color: rgb(164, 164, 164);
+    
+}
+
+
+.fa-star{
+    font-size: 13px !important;
+}
+
+
+.testimonial-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-container:hover .carousel-control-prev,
+.testimonial-container:hover .carousel-control-next {
+    opacity: 1;
+}
+.testimonial-container:not(:hover) .carousel-control-prev,
+.testimonial-container:not(:hover) .carousel-control-next {
+    opacity: 0;
+}
+
+
+
+
+.photos-div{
+    
+   
+    width: 100%;
+    height: 650px;
+}
+
+.photos-div .container{
+    display: flex;
+}
+
+.photos-div .container .img-div{
+    margin-left: 65px;
+}
+
+.photos-div .container .text-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 195px;
+
+}
+
+.photos-div .container .text-div p{
+   font-size: 13px;
+   max-width: 370px;
+    
+}
+
+.photos-div .container button {
+    background-color: black;
+    color: white;
+    width: 180px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.photos-div .container button:hover {
+    transform: translateY(-3px); 
+   
+}
+
+
+
+.video-container {
+    position: relative;
+    width: 1250px;
+    height: 620px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px; 
+    margin-bottom: 90px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+.icons-div{
+    height: 150px;
+    width: 100%;
+    border: 1px solid rgb(236, 235, 235);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+
+
+.icons-div .icon-container{
+    
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.icons-div .icon img{
+    height: 40px;
+    width: 100%;
+}
+
+
+
+
+
+.fasions{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 545px;
+    padding: 50px 0 85px;
+}
+
+.fasions .fasions-container{
+    display: flex;
+    
+}
+
+.fasions .fasions-container .fasion-div{
+      position: relative;
+      margin-top: 25px;
+      margin-bottom: 30px;
+      margin-left: 120px;
+      height: 406px;
+      width: 650px;
+      padding: 10px 50px;
+      background-color: rgb(244, 244, 244);
+      border: 1px solid #f3f3f3;
+      border-top-left-radius: 7px;
+      border-bottom-left-radius: 7px ;
+      display: flex;
+      flex-direction: column;
+}
+
+
+.fasions .fasions-container .fasion-img img{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 406px;
+    width: 650px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px ;
+    
+}
+
+.fasions .fasions-container .fasion-div h6{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 90px;
+}
+
+.fasions .fasions-container .fasion-div h1{
+    font-size: 65px;
+   
+   
+}
+
+.fasions .fasions-container .button-img-div{
+  margin-top: 36px;
+}
+
+.fasions .fasions-container .button-img-div button{
+    width: 180px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    height: 45px;
+    border-radius: 3px;
+}
+
+
+.fasions .fasions-container .fasion-div .fasion-img-2{
+    position:absolute;
+    left: 595px;
+    top:20px;
+    width: 110px;
+    height: 110px;
+}
+
+
+
+
+
+
+.banner-wrapper {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+   
+  }
+  
+  .banner-track {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    white-space: nowrap;
+    animation: scrollLeft 70s linear infinite;
+  }
+  
+  .banner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    font-size: 20px;
+    
+    color: #222;
+    font-weight: 600;
+  }
+  
+  .banner-separator {
+    margin: 0 5px;
+    font-size: 22px;
+    color: #222;
+  }
+  
+  .banner-track:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes scrollLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to  {
+    transform: translateX(-50%);
+    }
+
+}
+
+
+
+
+
+
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 615px;
+    height: 352px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    justify-content: flex-start;
+    overflow: hidden;
+    
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+    
+   
+}
+
+.card .hover-img {
+    position: absolute;
+    width:  100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
+    opacity: 0;
+}
+
+
+.card:nth-child(1):hover .hover-img,
+.card:nth-child(2):hover .hover-img {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+.card-content {
+    position: relative;
+    z-index: 1;
+    max-width: 200px;
+    text-align: left;
+    align-self: flex-start;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.card h3 {
+    font-size: 27px;
+    margin-top: 10px ;
+    text-align: left !important;
+}
+
+.card p {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 50px;
+   
+}
+
+.shop-now {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.shop-now:hover {
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+#carousel-main {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+.carousel-item img {
+    height: 660px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 170px; 
+    left: 8%;
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+   
+    border-radius: 10px;
+}
+
+
+.carousel-caption h3 {
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.carousel-caption  .elegance-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.carousel-caption button {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.carousel-caption button:hover {
+    transform: translateY(-2px);
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1 !important;  
+    visibility: visible !important;
+    transition: none; 
+}
+
+
+.carousel-control-prev {
+    left: 30px;
+}
+
+.carousel-control-next {
+    right: 30px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.icons-text-main{
+    margin-top: 50px;
+}
+
+.icons-text-main .icons-text-container{
+     height: 212px;
+     display: flex;
+     align-items: center;
+     margin-left: 135px;
+     gap:90px;
+    
+}
+
+.icons-text-main .icons-text-container .icon-text{
+
+    height: 125px;
+    display: flex;
+ 
+    
+
+}
+
+.icons-text-main .icons-text-container .icon-text svg{
+    color: rgb(82, 80, 80);
+}
+
+
+.icons-text-main .icons-text-container .icon-text .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.icons-text-main .icons-text-container .icon-text .text h6{
+    margin-top: -6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icons-text-main .icons-text-container .icon-text .text p{
+    margin-top: 9px;
+    font-size: 13px;
+    width: 180px ;
+}

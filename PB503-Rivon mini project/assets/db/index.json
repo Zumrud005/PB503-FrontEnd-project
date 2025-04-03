@@ -1,0 +1,64 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Half sleeve T-shirt",
+        "price": 46100,
+        "image": "https://example.com/images/half-sleeve-tshirt.png",
+        "hoverImage": "https://example.com/images/half-sleeve-tshirt-hover.png"
+      },
+      {
+        "id": "2",
+        "name": "Brown hat craft",
+        "price": 39200,
+        "image": "https://example.com/images/brown-hat.png",
+        "hoverImage": "https://example.com/images/brown-hat-hover.png"
+      },
+      {
+        "id": "3",
+        "name": "Slim-Fit Formal Suit Blazer",
+        "price": 38300,
+        "image": "https://example.com/images/slim-fit-blazer.png",
+        "hoverImage": "https://example.com/images/slim-fit-blazer-hover.png"
+      },
+      {
+        "id": "4",
+        "name": "Retro Tie-Dye Color Splash T-Shirt",
+        "price": 38900,
+        "image": "https://example.com/images/retro-tie-dye-tshirt.png",
+        "hoverImage": "https://example.com/images/retro-tie-dye-tshirt-hover.png"
+      },
+      {
+        "id": "5",
+        "name": "Geometric Print Relaxed Fit Tee",
+        "price": 54000,
+        "image": "https://example.com/images/geometric-print-tee.png",
+        "hoverImage": "https://example.com/images/geometric-print-tee-hover.png"
+      },
+      {
+        "id": "6",
+        "name": "Floral Pattern Colorful Summer Tee",
+        "price": 54800,
+        "oldPrice": 62800,
+        "image": "https://example.com/images/floral-pattern-tee.png",
+        "hoverImage": "https://example.com/images/floral-pattern-tee-hover.png",
+        "sale": true
+      },
+      {
+        "id": "7",
+        "name": "Black hat craft",
+        "price": 31200,
+        "image": "https://example.com/images/black-hat.png",
+        "hoverImage": "https://example.com/images/black-hat-hover.png"
+      },
+      {
+        "id": "8",
+        "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
+        "price": 46900,
+        "oldPrice": 54800,
+        "image": "https://example.com/images/warm-fit-flare-dress.png",
+        "hoverImage": "https://example.com/images/warm-fit-flare-dress-hover.png",
+        "sale": true
+      }
+    ]
+  }

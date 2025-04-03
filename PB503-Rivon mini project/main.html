@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top Header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/assets/js/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/assets/js/css/contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="top-header">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-md-4 d-flex align-items-center">
+                <i class="fas fa-phone-alt me-2"></i> <a href="tel:+0123456789">+0123456789</a>
+                <span class="mx-3">|</span>
+                <i class="fas fa-envelope me-2"></i> <a href="mailto:Rivon@gmail.com">Rivon@gmail.com</a>
+            </div>
+   
+            <div class="col-md-4 text-center">
+                Free Delivery on <strong>orders</strong> over <span id="price">$260</span>
+            </div>
+  
+            <div class="col-md-4 text-end">
+      
+                <div class="dropdown d-inline">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="currencyDropdown" data-bs-toggle="dropdown">
+                        AZN
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item currency-option" href="#" data-currency="AZN" data-rate="1" style="color:black">AZN</a></li>
+                        <li><a class="dropdown-item currency-option" href="#" data-currency="USD" data-rate="0.59" style="color:black">$ USD</a></li>
+                        <li><a class="dropdown-item currency-option" href="#" data-currency="TL" data-rate="19.1" style="color:black">₺ TL</a></li>
+                    </ul>
+                </div>
+                
+                <span class="mx-2">|</span>
+                
+                <div class="dropdown d-inline">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" >
+                        English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item language-option" href="#" data-lang="English" style="color:black">English</a></li>
+                        <li><a class="dropdown-item language-option" href="#" data-lang="Türkçe" style="color:black">Türkçe</a></li>
+                    </ul>
+                </div>
+                
+                <span class="mx-2">|</span>
+                
+                <span class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">Rivon</a>
+
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="far fa-heart"></i> <span class="icon-badge">0</span></a>
+            <a href="#"><i class="fas fa-shopping-bag"></i> <span class="icon-badge">0</span></a>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+<div id="carousel-main" class="carousel slide">
+    <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/hero-image-size-1-2.png?v=1734416972&width=2000" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex flex-column align-items-start text-dark">
+                <p class="elegance-text">Elegance is elimination</p>
+                <h3>Stay Ahead of</h3>
+                <h3>The Trends</h3><br>
+                <p>Tell your brand’s story through images</p><br>
+                <button href="#" class="btn btn-dark">Collections →</button>
+            </div>
+        </div>
+
+       
+        <div class="carousel-item">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/hero-image-size-2.png?v=1734259303&width=2000" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex flex-column align-items-start text-dark">
+                <p class="elegance-text">Elegance is elimination</p>
+                <h3>Stay Ahead of</h3>
+                <h3>The Trends</h3><br>
+                <p>Tell your brand’s story through images</p><br>
+                <button href="#" class="btn btn-dark">Shop Now →</button>
+            </div>
+        </div>
+    </div>
+
+   
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-main" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-main" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+
+
+
+
+<div class="icons-text-main">
+    <div class="icons-text-container">
+
+        <div class="icon-text">
+          
+            <div class="icon">
+            <svg width="60" height="38" viewBox="0 0 60 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M59.4399 21.2473L54.637 10.6809C54.2388 9.80778 53.5983 9.06744 52.7915 8.54787C51.9848 8.0283 51.0457 7.75137 50.0862 7.75H41.2502V4C41.2491 3.00577 40.8537 2.05257 40.1507 1.34955C39.4476 0.646522 38.4944 0.251086 37.5002 0.25H6.25018C5.25595 0.251086 4.30276 0.646522 3.59973 1.34955C2.8967 2.05257 2.50127 3.00577 2.50018 4V19C2.49858 19.1652 2.52973 19.329 2.59183 19.4821C2.65393 19.6351 2.74575 19.7744 2.86198 19.8917C2.97821 20.0091 3.11655 20.1022 3.269 20.1658C3.42145 20.2294 3.58499 20.2621 3.75016 20.2621C3.91534 20.2621 4.07888 20.2294 4.23133 20.1658C4.38377 20.1022 4.52211 20.0091 4.63834 19.8917C4.75457 19.7744 4.84639 19.6351 4.90849 19.4821C4.97059 19.329 5.00174 19.1652 5.00014 19V4C5.00052 3.66858 5.13233 3.35085 5.36668 3.1165C5.60103 2.88215 5.91877 2.75033 6.25018 2.74996H37.5002C37.8316 2.75033 38.1494 2.88215 38.3837 3.1165C38.6181 3.35085 38.7499 3.66858 38.7503 4V24C38.7498 24.3314 38.6179 24.6491 38.3836 24.8834C38.1493 25.1177 37.8316 25.2495 37.5002 25.25H22.5002C22.1708 25.2532 21.856 25.3863 21.6241 25.6203C21.3923 25.8544 21.2623 26.1705 21.2623 26.4999C21.2623 26.8294 21.3923 27.1455 21.6241 27.3796C21.856 27.6136 22.1708 27.7467 22.5002 27.7499H37.5002C38.4944 27.7488 39.4476 27.3534 40.1507 26.6504C40.8537 25.9473 41.2491 24.9941 41.2502 23.9999V10.25H50.0862C50.566 10.2506 51.0356 10.3891 51.4391 10.6489C51.8426 10.9086 52.163 11.2788 52.3622 11.7154L52.8324 12.7499H47.5004C46.8375 12.7506 46.202 13.0142 45.7333 13.4829C45.2645 13.9516 45.0009 14.5871 45.0002 15.25V20.25C45.0009 20.9129 45.2645 21.5484 45.7332 22.0171C46.2019 22.4858 46.8374 22.7493 47.5002 22.75H57.3205C57.4339 23.1 57.4947 23.4649 57.5007 23.8328V29.0001C57.5003 29.3315 57.3683 29.6493 57.1339 29.8836C56.8995 30.1179 56.5817 30.2497 56.2502 30.25H52.3739C52.0857 28.8386 51.3188 27.57 50.203 26.659C49.0871 25.7479 47.6908 25.2503 46.2503 25.2503C44.8097 25.2503 43.4134 25.7479 42.2975 26.659C41.1817 27.57 40.4148 28.8386 40.1266 30.25H19.8739C19.5858 28.8386 18.8189 27.57 17.703 26.659C16.5872 25.7479 15.1908 25.2503 13.7503 25.2503C12.3098 25.2503 10.9134 25.7479 9.79758 26.659C8.68172 27.57 7.91484 28.8386 7.62667 30.25H6.25018C5.91878 30.2496 5.60108 30.1177 5.36675 29.8834C5.13242 29.6491 5.00058 29.3314 5.00014 29V27.75C5.32956 27.7468 5.6444 27.6137 5.87622 27.3797C6.10803 27.1456 6.23808 26.8295 6.23808 26.5001C6.23808 26.1706 6.10803 25.8545 5.87622 25.6204C5.6444 25.3864 5.32956 25.2533 5.00014 25.2501H1.25014C0.920724 25.2533 0.605881 25.3864 0.374066 25.6204C0.142251 25.8545 0.012207 26.1706 0.012207 26.5001C0.012207 26.8295 0.142251 27.1456 0.374066 27.3797C0.605881 27.6137 0.920724 27.7468 1.25014 27.75H2.50018V29.0001C2.50127 29.9943 2.8967 30.9475 3.59973 31.6505C4.30276 32.3536 5.25595 32.749 6.25018 32.7501H7.62655C7.91472 34.1615 8.6816 35.4301 9.79746 36.3411C10.9133 37.2522 12.3096 37.7498 13.7502 37.7498C15.1907 37.7498 16.587 37.2522 17.7029 36.3411C18.8188 35.4301 19.5856 34.1615 19.8738 32.7501H40.1265C40.4147 34.1615 41.1816 35.4301 42.2974 36.3411C43.4133 37.2522 44.8096 37.7498 46.2501 37.7498C47.6907 37.7498 49.087 37.2522 50.2029 36.3411C51.3187 35.4301 52.0856 34.1615 52.3738 32.7501H56.2502C57.2444 32.749 58.1976 32.3536 58.9007 31.6505C59.6037 30.9475 59.9991 29.9943 60.0002 29.0001V23.8328C60.0017 22.9407 59.8106 22.0588 59.4399 21.2473ZM13.7502 35.25C13.0085 35.25 12.2835 35.0301 11.6668 34.618C11.0501 34.206 10.5695 33.6203 10.2856 32.9351C10.0018 32.2499 9.92754 31.4959 10.0722 30.7684C10.2169 30.041 10.5741 29.3728 11.0985 28.8484C11.623 28.3239 12.2912 27.9668 13.0186 27.8221C13.746 27.6774 14.5 27.7517 15.1852 28.0355C15.8705 28.3193 16.4561 28.8 16.8682 29.4167C17.2802 30.0333 17.5002 30.7584 17.5002 31.5C17.4991 32.4943 17.1037 33.4475 16.4006 34.1505C15.6976 34.8535 14.7444 35.249 13.7502 35.25ZM46.2501 35.25C45.5085 35.25 44.7834 35.0301 44.1668 34.618C43.5501 34.206 43.0694 33.6203 42.7856 32.9351C42.5018 32.2499 42.4275 31.4959 42.5722 30.7684C42.7169 30.041 43.074 29.3728 43.5985 28.8484C44.1229 28.3239 44.7911 27.9668 45.5186 27.8221C46.246 27.6774 47 27.7517 47.6852 28.0355C48.3704 28.3193 48.9561 28.8 49.3682 29.4167C49.7802 30.0333 50.0001 30.7584 50.0001 31.5C49.9991 32.4942 49.6036 33.4474 48.9006 34.1505C48.1976 34.8535 47.2443 35.2489 46.2501 35.25ZM47.5002 15.25H53.9682L56.241 20.25H47.5002V15.25Z" fill="currentColor"></path>
+                <path d="M21.589 12.125C21.5879 11.2965 21.2584 10.5023 20.6725 9.91643C20.0867 9.3306 19.2924 9.00102 18.4639 9H15.964C15.6324 9 15.3145 9.1317 15.0801 9.36613C14.8456 9.60056 14.7139 9.91851 14.7139 10.25V17.75C14.7123 17.9152 14.7435 18.0791 14.8056 18.2321C14.8677 18.3852 14.9595 18.5244 15.0757 18.6418C15.192 18.7591 15.3303 18.8523 15.4827 18.9159C15.6352 18.9794 15.7987 19.0122 15.9639 19.0122C16.1291 19.0122 16.2926 18.9794 16.4451 18.9159C16.5975 18.8523 16.7359 18.7591 16.8521 18.6418C16.9683 18.5244 17.0601 18.3852 17.1222 18.2321C17.1843 18.0791 17.2155 17.9152 17.2139 17.75V16.2553L19.2424 18.5732C19.3499 18.6986 19.4812 18.8015 19.6288 18.8758C19.7763 18.9502 19.9371 18.9946 20.1019 19.0064C20.2667 19.0182 20.4322 18.9972 20.5888 18.9447C20.7454 18.8921 20.8901 18.8091 21.0144 18.7003C21.1387 18.5915 21.2402 18.4591 21.3131 18.3108C21.3859 18.1625 21.4286 18.0013 21.4388 17.8364C21.4489 17.6715 21.4262 17.5062 21.3721 17.3501C21.3179 17.194 21.2333 17.0502 21.1233 16.927L19.5015 15.0731C20.1114 14.8576 20.6395 14.4584 21.0133 13.9305C21.3871 13.4026 21.5882 12.7719 21.589 12.125ZM18.4639 12.75H17.214V11.5001H18.464C18.6298 11.5001 18.7888 11.5659 18.906 11.6831C19.0232 11.8004 19.0891 11.9593 19.0891 12.1251C19.0891 12.2909 19.0232 12.4498 18.906 12.5671C18.7888 12.6843 18.6298 12.7501 18.464 12.7501L18.4639 12.75Z" fill="currentColor"></path>
+                <path d="M12.5001 11.5C12.8295 11.4968 13.1444 11.3637 13.3762 11.1296C13.608 10.8955 13.738 10.5794 13.738 10.25C13.738 9.92054 13.608 9.60443 13.3762 9.37036C13.1444 9.13629 12.8295 9.00319 12.5001 9H8.7501C8.41859 9 8.10065 9.13168 7.86623 9.36609C7.6318 9.60049 7.50009 9.91841 7.50006 10.2499V17.7499C7.49846 17.9151 7.52961 18.0789 7.59171 18.232C7.65381 18.3851 7.74563 18.5243 7.86186 18.6416C7.97809 18.759 8.11643 18.8522 8.26888 18.9157C8.42132 18.9793 8.58486 19.0121 8.75004 19.0121C8.91521 19.0121 9.07875 18.9793 9.2312 18.9157C9.38365 18.8522 9.52199 18.759 9.63822 18.6416C9.75445 18.5243 9.84627 18.3851 9.90837 18.232C9.97047 18.0789 10.0016 17.9151 10 17.7499V15.25H11.875C12.0402 15.2516 12.204 15.2204 12.3571 15.1583C12.5102 15.0962 12.6494 15.0044 12.7667 14.8882C12.8841 14.7719 12.9773 14.6336 13.0408 14.4811C13.1044 14.3287 13.1372 14.1652 13.1372 14C13.1372 13.8348 13.1044 13.6713 13.0408 13.5188C12.9773 13.3664 12.8841 13.228 12.7667 13.1118C12.6494 12.9956 12.5102 12.9038 12.3571 12.8417C12.204 12.7796 12.0402 12.7484 11.875 12.75H10V11.5H12.5001Z" fill="currentColor"></path>
+                <path d="M35 11.5C35.3295 11.4968 35.6443 11.3637 35.8761 11.1296C36.1079 10.8955 36.238 10.5794 36.238 10.25C36.238 9.92054 36.1079 9.60443 35.8761 9.37036C35.6443 9.13629 35.3295 9.00319 35 9H31.25C30.9185 9 30.6006 9.13168 30.3662 9.36609C30.1317 9.60049 30 9.91841 30 10.2499V17.7499C30 18.0815 30.1317 18.3994 30.3661 18.6338C30.6006 18.8683 30.9185 19 31.25 19H35C35.3295 18.9968 35.6443 18.8637 35.8761 18.6296C36.1079 18.3955 36.238 18.0794 36.238 17.75C36.238 17.4205 36.1079 17.1044 35.8761 16.8704C35.6443 16.6363 35.3295 16.5032 35 16.5H32.5V15.25H34.3468C34.512 15.2516 34.6759 15.2204 34.8289 15.1583C34.982 15.0962 35.1212 15.0044 35.2386 14.8882C35.3559 14.7719 35.4491 14.6336 35.5127 14.4811C35.5762 14.3287 35.609 14.1652 35.609 14C35.609 13.8348 35.5762 13.6713 35.5127 13.5188C35.4491 13.3664 35.3559 13.228 35.2386 13.1118C35.1212 12.9956 34.982 12.9038 34.8289 12.8417C34.6759 12.7796 34.512 12.7484 34.3468 12.75H32.5V11.5H35Z" fill="currentColor"></path>
+                <path d="M27.8125 11.5C27.9777 11.5016 28.1416 11.4705 28.2946 11.4084C28.4477 11.3463 28.5869 11.2544 28.7043 11.1382C28.8216 11.022 28.9148 10.8837 28.9784 10.7312C29.0419 10.5788 29.0747 10.4152 29.0747 10.25C29.0747 10.0849 29.0419 9.92132 28.9784 9.76887C28.9148 9.61643 28.8216 9.47809 28.7043 9.36186C28.5869 9.24563 28.4477 9.15381 28.2946 9.09171C28.1416 9.02961 27.9777 8.99846 27.8125 9.00006H24.0625C23.731 9.00006 23.4131 9.13176 23.1786 9.36619C22.9442 9.60061 22.8125 9.91857 22.8125 10.2501V17.7501C22.8125 18.0816 22.9442 18.3995 23.1787 18.6339C23.4131 18.8683 23.731 19 24.0625 19H27.8125C27.9777 19.0016 28.1416 18.9705 28.2946 18.9084C28.4477 18.8463 28.5869 18.7544 28.7043 18.6382C28.8216 18.522 28.9148 18.3837 28.9784 18.2312C29.0419 18.0788 29.0747 17.9152 29.0747 17.75C29.0747 17.5849 29.0419 17.4213 28.9784 17.2689C28.9148 17.1164 28.8216 16.9781 28.7043 16.8619C28.5869 16.7456 28.4477 16.6538 28.2946 16.5917C28.1416 16.5296 27.9777 16.4985 27.8125 16.5001H25.3126V15.25H27.1602C27.3253 15.2516 27.4892 15.2205 27.6422 15.1584C27.7953 15.0963 27.9345 15.0044 28.0519 14.8882C28.1692 14.772 28.2624 14.6337 28.326 14.4812C28.3896 14.3288 28.4223 14.1652 28.4223 14C28.4223 13.8349 28.3896 13.6713 28.326 13.5189C28.2624 13.3664 28.1692 13.2281 28.0519 13.1119C27.9345 12.9956 27.7953 12.9038 27.6422 12.8417C27.4892 12.7796 27.3253 12.7485 27.1602 12.7501H25.3126V11.5H27.8125Z" fill="currentColor"></path>
+                <path d="M1.25014 24H7.5001C7.82952 23.9968 8.14437 23.8637 8.37618 23.6296C8.608 23.3955 8.73804 23.0794 8.73804 22.75C8.73804 22.4205 8.608 22.1044 8.37618 21.8704C8.14437 21.6363 7.82952 21.5032 7.5001 21.5H1.25014C0.920724 21.5032 0.605881 21.6363 0.374066 21.8704C0.142251 22.1044 0.012207 22.4205 0.012207 22.75C0.012207 23.0794 0.142251 23.3955 0.374066 23.6296C0.605881 23.8637 0.920724 23.9968 1.25014 24Z" fill="currentColor"></path>
+              </svg>
+            </div>
+            <div class="text">
+              <h6>FREE SHIPPING</h6>
+              <p>On all orders over $75.00</p>
+            </div>
+            
+              
+
+        </div>
+
+        <div class="icon-text">
+            <div class="icon">
+                <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M41.957 10.7812H36.4729C37.3208 9.65425 37.8242 8.25403 37.8242 6.73828C37.8242 3.02279 34.8014 0 31.0859 0C28.8478 0 27.1975 0.801855 25.8922 2.52344C24.8001 3.96382 24.0016 5.97488 23 8.51584C21.9984 5.97479 21.1999 3.96382
+                     20.1078 2.52344C18.8025 0.801855 17.1522 0 14.9141 0C11.1986 0 8.17578 3.02279 8.17578 6.73828C8.17578 8.25403 8.67918 9.65425 9.52712 10.7812H4.04297C1.81368 10.7812 0 12.5949 0 14.8242V17.5195C0 19.2764 1.12673 20.7744 2.69531 21.3307V41.957C2.69531 44.1863 
+                     4.50899 46 6.73828 46H39.2617C41.491 46 43.3047 44.1863 43.3047 41.957V21.3307C44.8733 20.7744 46 19.2764 46 17.5195V14.8242C46 12.5949 44.1863 10.7812 41.957 10.7812ZM25.4738 9.58992C27.5383 4.35221 28.3232 2.69531 31.0859 2.69531C33.3152 2.69531 
+                     35.1289 4.50899 35.1289 6.73828C35.1289 8.96757 33.3152 10.7812 31.0859 10.7812H25.0023C25.1675 10.3666 25.325 9.96745 25.4738 9.58992ZM14.9141 2.69531C17.6768 2.69531 18.4617 4.35221 20.5262 9.58992C20.675 9.96745 20.8325 10.3666 20.9977 10.7812H14.9141C12.6848 
+                     10.7812 10.8711 8.96757 10.8711 6.73828C10.8711 4.50899 12.6848 2.69531 14.9141 2.69531ZM17.6094 43.3047H6.73828C5.99518 43.3047 5.39062 42.7001 5.39062 41.957V21.5625H17.6094V43.3047ZM17.6094 18.8672H4.04297C3.29987 18.8672 2.69531 18.2626 2.69531 17.5195V14.8242C2.69531 
+                     14.0811 3.29987 13.4766 4.04297 13.4766H17.6094V18.8672ZM25.6953 43.3047H20.3047V13.4766C20.5871 13.4766 24.1464 13.4766 25.6953 13.4766V43.3047ZM40.6094 41.957C40.6094 42.7001 40.0048 43.3047 39.2617 43.3047H28.3906V21.5625H40.6094V41.957ZM43.3047 17.5195C43.3047 18.2626 42.7001 18.8672 41.957 
+                     18.8672H28.3906V13.4766H41.957C42.7001 13.4766 43.3047 14.0811 43.3047 14.8242V17.5195Z" fill="currentColor"></path>
+                  </svg>
+                </div>
+                <div class="text">
+                  <h6>MONEY BACK</h6>
+                  <p>30 days money back guarantee</p>
+                </div>
+                
+                
+                  
+            
+        </div>
+
+
+        <div class="icon-text">
+            <div class="icon">
+                <svg width="49" height="46" viewBox="0 0 49 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.5001 8.69354C26.7028 8.69354 28.4885 6.90789 28.4885 4.70517C28.4885 2.50245 26.7028 0.716797 24.5001 0.716797C22.2974 0.716797 20.5117 2.50245 20.5117 4.70517C20.5117 6.90789 22.2974 8.69354 24.5001 8.69354Z" fill="currentColor"></path>
+                    <path d="M45.0116 15.5309C47.2143 15.5309 48.9999 13.7453 48.9999 11.5426C48.9999 9.33985 47.2143 7.5542 45.0116 7.5542C42.8088 7.5542 41.0232 9.33985 41.0232 11.5426C41.0232 13.7453 42.8088 15.5309 45.0116 15.5309Z" fill="currentColor"></path>
+                    <path d="M3.98837 15.5309C6.19109 15.5309 7.97675 13.7453 7.97675 11.5426C7.97675 9.33985 6.19109 7.5542 3.98837 7.5542C1.78566 7.5542 0 9.33985 0 11.5426C0 13.7453 1.78566 15.5309 3.98837 15.5309Z" fill="currentColor"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M45.547 14.1564C45.6929 13.4317 45.3556 12.6978 44.7152 12.3332C44.0725 11.9708 43.268 12.0597 42.721 12.5565C42.721 12.5565 40.3371 14.7239 37.6478 17.1694C36.3897 18.3135 34.6462 18.7579 32.9939 18.359C31.3416 17.9602 29.9947 16.7683 29.3975 15.1752L26.0997 6.38481C25.849 5.71704 25.2132 5.2749 24.4998 5.2749C23.7865 5.2749 23.1506 5.71704 22.8999 6.38481L19.6021 15.1752C19.005 16.7683 17.6581 17.9602 16.0057 18.359C14.3534 18.7579 12.6099 18.3135 11.3519 17.1694C8.66257 14.7239 6.27866 12.5565 6.27866 12.5565C5.73169 12.0597 4.92718 11.9708 4.28448 12.3332C3.64406 12.6978 3.30676 13.4317 3.45262 14.1564C3.45262 14.1564 5.98922 26.8395 7.2769 33.2824C7.86262 36.2133 10.4357 38.3214 13.4235 38.3214H35.5761C38.564 38.3214 41.137 36.2133 41.7228 33.2824C43.0104 26.8395 45.547 14.1564 45.547 14.1564ZM41.1758 18.5824L38.3702 32.6123C38.1036 33.9433 36.9344 34.9028 35.5761 34.9028H13.4235C12.0652 34.9028 10.8961 33.9433 10.6294 32.6123L7.82387 18.5824L9.05229 19.6991C11.149 21.6044 14.0549 22.3474 16.808 21.6819C19.5634 21.0164 21.8082 19.0291 22.8042 16.3763L24.4998 11.8523L26.1955 16.3763C27.1914 19.0291 29.4363 21.0164 32.1917 21.6819C34.9448 22.3474 37.8506 21.6044 39.9474 19.6991L41.1758 18.5824Z" fill="currentColor"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M38.1744 41.7402H10.8255C9.88198 41.7402 9.11621 42.506 9.11621 43.4495C9.11621 44.3931 9.88198 45.1588 10.8255 45.1588H38.1744C39.1179 45.1588 39.8837 44.3931 39.8837 43.4495C39.8837 42.506 39.1179 41.7402 38.1744 41.7402Z" fill="currentColor"></path>
+                  </svg>
+                </div>
+                <div class="text">
+                  <h6>FRIENDLY SUPPORT</h6>
+                  <p>Team always ready for you</p>
+                </div>
+                
+                  
+            
+        </div>
+
+
+        <div class="icon-text">
+            <div class="icon wallet">
+                <svg xmlns="http://www.w3.org/2000/svg" width="49" height="46" fill="currentColor" class="bi bi-wallet" viewBox="0 0 16 16">
+                    <path d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a2 2 0 0 1-1-.268M1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1"/>
+                  </svg>
+
+                </div>
+                <div class="text">
+                  <h6>FREE SHIPPING</h6>
+                  <p>On all orders over $75.00</p>
+                </div>
+                
+                  
+            
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-card">
+    <div class="card">
+        <div class="card-content">
+            <p>Top Collections</p>
+            <h3>Top Trends Style</h3>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/banner-1.png?v=1733829134&width=1100" alt="Man with stylish outfit">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/banner-1.png?v=1733829134&width=1100" class="hover-img" alt="Man hover effect">
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <p>Premium - Online Exclusive</p>
+            <h3>Here Your Style</h3>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/banner-2.png?v=1733829133&width=1100" alt="Woman hover effect">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/banner-2.png?v=1733829133&width=1100" class="hover-img" alt="Woman hover effect">
+    </div>
+</div>
+
+
+
+
+<section>
+    <div class="banner-wrapper">
+      <div class="banner-track">
+        <div class="banner-text">
+            SIGN UP AND GET 10% OFF YOUR FIRST ORDER
+          </div>
+        <div class="banner-separator">★</div>
+        <div class="banner-text">
+          
+            SIGN UP AND GET 10% OFF YOUR FIRST ORDER
+                        
+        </div>
+        <div class="banner-separator">★</div>
+        <div class="banner-text">
+            FREE DELIVERY FOR ORDER OVER $120
+          </div>
+        <div class="banner-separator">★</div>
+        <div class="banner-text">
+            SIGN UP AND GET 10% OFF YOUR FIRST ORDER
+          </div>
+        <div class="banner-separator">★</div>
+
+        <div class="banner-text">
+            SIGN UP AND GET 10% OFF YOUR FIRST ORDER
+          </div>
+        <div class="banner-separator">★</div>
+        <div class="banner-text">
+         
+            FREE DELIVERY FOR ORDER OVER $120
+                        
+        </div>
+        <div class="banner-separator">★</div>
+        <div class="banner-text">
+            SIGN UP AND GET 10% OFF YOUR FIRST ORDER
+          </div>
+        <div class="banner-separator">★</div>
+        <div class="banner-text">
+            SIGN UP AND GET 10% OFF YOUR FIRST ORDER
+          </div>
+        <div class="banner-separator">★</div>
+        <div class="banner-text">
+         
+            FREE DELIVERY FOR ORDER OVER $120
+                        
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+<div class="fasions">
+    <div class="fasions-container">
+        <div class="fasion-div">
+           <img src="https://rivon-demo.myshopify.com/cdn/shop/files/11.png?v=1733830368" alt="" class="fasion-img-2">
+           <h6>For Online Purchase</h6><br>
+           <h1>50% OFF</h1>
+           <div class="button-img-div">
+           <button type="button" class="btn btn-outline-dark">View Collections 
+            <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.14649 10.7061C0.853594 10.4132 0.853594 9.93835 1.14649 9.64545L9.64651 1.14544C9.93941 0.852536 10.4142 0.852536 10.7071 1.14544C11 1.43834 11 1.91324 10.7071 2.20614L2.20715 10.7061C1.91425 10.999 1.43938 10.999 1.14649 10.7061Z" fill="currentColor"></path>
+                <path d="M0.426757 1.67574C0.426757 1.26154 0.762537 0.925741 1.17676 0.925741L10.1768 0.925741C10.591 0.925741 10.9268 1.26154 10.9268 1.67574L10.9268 10.6758C10.9268 11.09 10.591 11.4258 10.1768 11.4258C9.7625 11.4258 9.4268 11.09 9.4268 10.6758L9.4268 2.42574L1.17676 2.42574C0.762537 2.42574 0.426757 2.09004 0.426757 1.67574Z" fill="currentColor"></path>
+              </svg>
+           </button>
+               <img src="https://rivon-demo.myshopify.com/cdn/shop/files/text-image-1.png?v=1733830460" alt="fasion">
+           </div>
+        </div>
+        <div class="fasion-img">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/banner-222.png?v=1733831153" alt="img1">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="icons-div">
+    <div class="icon-container">
+    <div class="icon">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/brand-logo-1.png?v=1733906360"  alt="icon1">
+  
+    </div>
+
+
+
+    <div class="icon">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/brand-logo-2.png?v=1733906360" alt="icon2">
+
+    </div>
+
+
+
+
+    <div class="icon">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/brand-logo-3.png?v=1733906360"  alt="icon3">
+
+    </div>
+
+
+
+
+    <div class="icon">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/brand-logo-4.png?v=1733906360" alt="icon4">
+
+    </div>
+
+
+
+
+    <div class="icon">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/brand-logo-5.png?v=1733906360" alt="icon5">
+
+    </div>
+
+
+
+
+    <div class="icon">
+        <img src="https://rivon-demo.myshopify.com/cdn/shop/files/brand-logo-6.png?v=1733906360" alt="icon6">
+
+    </div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="video-container">
+    <video id="video" poster="https://rivon-demo.myshopify.com/cdn/shop/files/preview_images/d125c5f54e6d4b649fefbe06f49e6fef.thumbnail.0000000000.jpg?v=1733909250&width=1100" controls>
+        <source src="https://rivon-demo.myshopify.com/cdn/shop/videos/c/vp/d125c5f54e6d4b649fefbe06f49e6fef/d125c5f54e6d4b649fefbe06f49e6fef.HD-1080p-7.2Mbps-39534613.mp4?v=0" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+   
+</div>
+
+
+
+
+
+
+<div class="photos-div">
+    <div class="container">
+        <div class="img-div">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/fashen-banner-11.png?v=1733907052">
+        </div>
+
+        <div class="text-div">
+            <h1>Shop the look</h1><br>
+            <p>Here is your chance to upgrade your wardrobe with a variation</p>
+
+            <p>of styles and fits that are both.</p>
+            <button type="submit">DISCOVER NOW</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container mt-5">
+    <div class="testimonial-container">
+        <div class="testimonial-wrapper" id="testimonialWrapper">
+            <div class="testimonial-card">
+                <img src="https://rivon-demo.myshopify.com/cdn/shop/files/avator-test-2.png?v=1733907245&width=120" class="testimonial-img" alt="">
+                <h5>Smart Home Assistant</h5>
+                <span style="color: gold;">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span><br>
+                <p>“Thanks guys, keep up the good work! Great job, I will
+                    definitely be ordering again! Thanks guys, keep up the good work!
+                    Garden was worth a fortune to my company.”</p>
+                <h4>Willie Bradley</h4>
+                <h6>/Reporter</h6>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://rivon-demo.myshopify.com/cdn/shop/files/avator-test-4.png?v=1733907264&width=120" class="testimonial-img" alt="">
+                <h5>Smart Home Assistant</h5>
+                <span style="color: gold;">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span><br>
+                <p>“Thanks guys, keep up the good work! Great job, I will
+                    definitely be ordering again! Thanks guys, keep up the good work!
+                    Garden was worth a fortune to my company.”</p>
+                <h4>Emily T.</h4>
+                <h6>Sydney, Australia</h6>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://rivon-demo.myshopify.com/cdn/shop/files/avator-test-3.png?v=1733907280&width=100" class="testimonial-img" alt="">
+                <h5>Smart Home Assistant</h5>
+                <span style="color: gold;">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span><br>
+                <p>“Thanks guys, keep up the good work! Great job, I will
+                    definitely be ordering again! Thanks guys, keep up the good work!
+                    Garden was worth a fortune to my company.”</p>
+                <h4>Michael L.</h4>
+                <h6>London, UK</h6>
+            </div>
+        </div>
+        <button class="carousel-control-prev" onclick="moveSlide(-1)">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" onclick="moveSlide(1)">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="follow-rivon-div">
+    <h2>Follow @Rivon</h2>
+    <p>The best quality products are waiting for you & choose it now.</p>
+
+    <div class="image-div">
+        <div class="photos">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/instagram-1png.png?v=1733907473" alt="Photo1">
+            <a href="https://instagram.com" target="_blank" ></a>
+        
+
+        </div>
+
+        <div class="photos">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/instagram-2png.png?v=1733907473" alt="Photo2">
+            <a href="https://instagram.com" target="_blank" ></a>
+         
+        </div>
+
+        <div class="photos">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/instagram-3.png?v=1733907608" alt="Photo3">
+            <a href="https://instagram.com" target="_blank" ></a>
+          
+        </div>
+
+        <div class="photos">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/instagram-4.png?v=1733907608" alt="Photo4">
+            <a href="https://instagram.com" target="_blank" ></a>
+           
+        </div>
+
+        <div class="photos">
+            <img src="https://rivon-demo.myshopify.com/cdn/shop/files/instagram-5png.png?v=1733907608" alt="Photo5">
+            <a href="https://instagram.com" target="_blank" ></a>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-column">
+        <h3>Contact Info</h3><br>
+        <p style="font-weight: bold;">70 Washington Square South, New York, NY 10012, United States</p>
+        <p  style="font-weight: bold;">Email: info@fashionshop.com</p>
+        <p  style="font-weight: bold;">Phone: (212)555-1234</p>
+    </div>
+    <div class="footer-column">
+        <h3>Our Store</h3><br>
+        <a href="#">Full Grooming</a>
+        <a href="#">Bath and Dry</a>
+        <a href="#">Styling</a>
+        <a href="#">Medical Bath</a>
+    </div>
+    <div class="footer-column">
+        <h3>Useful Links</h3><br>
+        <a href="#">Login</a>
+        <a href="#">My account</a>
+        <a href="#">Wishlist</a>
+        <a href="#">Checkout</a>
+    </div>
+    <div class="footer-column">
+        <h3>Sign Up for Email</h3>
+        <p>Subscribe to our newsletter to receive news on update.</p>
+        <div class="subscribe">
+            <span class="newsletter_befor_icon_box">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.9678 21.8555H7.96777C4.31777 21.8555 2.21777 19.7555 2.21777 16.1055V9.10547C2.21777 5.45547 4.31777 3.35547 7.96777 3.35547H17.9678C21.6178 3.35547 23.7178 5.45547 23.7178 9.10547V16.1055C23.7178 19.7555 21.6178 21.8555 17.9678 21.8555ZM7.96777 4.85547C5.10777 4.85547 3.71777 6.24547 3.71777 9.10547V16.1055C3.71777 18.9655 5.10777 20.3555 7.96777 20.3555H17.9678C20.8278 20.3555 22.2178 18.9655 22.2178 16.1055V9.10547C22.2178 6.24547 20.8278 4.85547 17.9678 4.85547H7.96777Z" fill="currentColor"></path>
+                  <path d="M12.9676 13.4754C12.1276 13.4754 11.2776 13.2154 10.6276 12.6854L7.49755 10.1854C7.17755 9.92544 7.11756 9.45544 7.37755 9.13544C7.63756 8.81544 8.10756 8.75544 8.42756 9.01544L11.5575 11.5154C12.3175 12.1254 13.6075 12.1254 14.3675 11.5154L17.4976 9.01544C17.8175 8.75544 18.2976 8.80544 18.5476 9.13544C18.8076 9.45544 18.7576 9.93544 18.4276 10.1854L15.2976 12.6854C14.6576 13.2154 13.8076 13.4754 12.9676 13.4754Z" fill="currentColor"></path>
+                </svg>
+              </span>
+            <input type="email" placeholder="Enter your email">
+            <button>SUBSCRIBE</button>
+        </div>
+    </div>
+    
+</footer>
+
+<hr>
+<div class="footer-bottom">
+  <div class="main-container">
+    <p style="margin-top: 10px;">&copy; 2025, Rivon Shopify Theme</p>
+    <div class="payment-icons">
+        <div class="footer__payment">
+            <ul class="list list-payment" role="list"><li class="list-payment__item">
+                  <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg>
+                </li>
+                <li class="list-payment__item">
+                  <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+                </li>
+                <li class="list-payment__item">
+                  <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pi-american_express" viewBox="0 0 38 24" width="38" height="24"><title id="pi-american_express">American Express</title><path fill="#000" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z" opacity=".07"></path><path fill="#006FCF" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z"></path><path fill="#FFF" d="M22.012 19.936v-8.421L37 11.528v2.326l-1.732 1.852L37 17.573v2.375h-2.766l-1.47-1.622-1.46 1.628-9.292-.02Z"></path><path fill="#006FCF" d="M23.013 19.012v-6.57h5.572v1.513h-3.768v1.028h3.678v1.488h-3.678v1.01h3.768v1.531h-5.572Z"></path><path fill="#006FCF" d="m28.557 19.012 3.083-3.289-3.083-3.282h2.386l1.884 2.083 1.89-2.082H37v.051l-3.017 3.23L37 18.92v.093h-2.307l-1.917-2.103-1.898 2.104h-2.321Z"></path><path fill="#FFF" d="M22.71 4.04h3.614l1.269 2.881V4.04h4.46l.77 2.159.771-2.159H37v8.421H19l3.71-8.421Z"></path><path fill="#006FCF" d="m23.395 4.955-2.916 6.566h2l.55-1.315h2.98l.55 1.315h2.05l-2.904-6.566h-2.31Zm.25 3.777.875-2.09.873 2.09h-1.748Z"></path><path fill="#006FCF" d="M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z"></path></svg>
+
+                </li>
+                <li class="list-payment__item">
+                  <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"></path><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"></path><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"></path></svg>
+                </li>
+                <li class="list-payment__item">
+                  <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-diners_club"><title id="pi-diners_club">Diners Club</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M12 12v3.7c0 .3-.2.3-.5.2-1.9-.8-3-3.3-2.3-5.4.4-1.1 1.2-2 2.3-2.4.4-.2.5-.1.5.2V12zm2 0V8.3c0-.3 0-.3.3-.2 2.1.8 3.2 3.3 2.4 5.4-.4 1.1-1.2 2-2.3 2.4-.4.2-.4.1-.4-.2V12zm7.2-7H13c3.8 0 6.8 3.1 6.8 7s-3 7-6.8 7h8.2c3.8 0 6.8-3.1 6.8-7s-3-7-6.8-7z" fill="#3086C8"></path></svg>
+                </li>
+                <li class="list-payment__item">
+                  <svg class="icon icon--full-color" viewBox="0 0 38 24" width="38" height="24" role="img" aria-labelledby="pi-discover" fill="none" xmlns="http://www.w3.org/2000/svg"><title id="pi-discover">Discover</title><path fill="#000" opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#fff"></path><path d="M3.57 7.16H2v5.5h1.57c.83 0 1.43-.2 1.96-.63.63-.52 1-1.3 1-2.11-.01-1.63-1.22-2.76-2.96-2.76zm1.26 4.14c-.34.3-.77.44-1.47.44h-.29V8.1h.29c.69 0 1.11.12 1.47.44.37.33.59.84.59 1.37 0 .53-.22 1.06-.59 1.39zm2.19-4.14h1.07v5.5H7.02v-5.5zm3.69 2.11c-.64-.24-.83-.4-.83-.69 0-.35.34-.61.8-.61.32 0 .59.13.86.45l.56-.73c-.46-.4-1.01-.61-1.62-.61-.97 0-1.72.68-1.72 1.58 0 .76.35 1.15 1.35 1.51.42.15.63.25.74.31.21.14.32.34.32.57 0 .45-.35.78-.83.78-.51 0-.92-.26-1.17-.73l-.69.67c.49.73 1.09 1.05 1.9 1.05 1.11 0 1.9-.74 1.9-1.81.02-.89-.35-1.29-1.57-1.74zm1.92.65c0 1.62 1.27 2.87 2.9 2.87.46 0 .86-.09 1.34-.32v-1.26c-.43.43-.81.6-1.29.6-1.08 0-1.85-.78-1.85-1.9 0-1.06.79-1.89 1.8-1.89.51 0 .9.18 1.34.62V7.38c-.47-.24-.86-.34-1.32-.34-1.61 0-2.92 1.28-2.92 2.88zm12.76.94l-1.47-3.7h-1.17l2.33 5.64h.58l2.37-5.64h-1.16l-1.48 3.7zm3.13 1.8h3.04v-.93h-1.97v-1.48h1.9v-.93h-1.9V8.1h1.97v-.94h-3.04v5.5zm7.29-3.87c0-1.03-.71-1.62-1.95-1.62h-1.59v5.5h1.07v-2.21h.14l1.48 2.21h1.32l-1.73-2.32c.81-.17 1.26-.72 1.26-1.56zm-2.16.91h-.31V8.03h.33c.67 0 1.03.28 1.03.82 0 .55-.36.85-1.05.85z" fill="#231F20"></path><path d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint0_linear)"></path><path opacity=".65" d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint1_linear)"></path><path d="M36.57 7.506c0-.1-.07-.15-.18-.15h-.16v.48h.12v-.19l.14.19h.14l-.16-.2c.06-.01.1-.06.1-.13zm-.2.07h-.02v-.13h.02c.06 0 .09.02.09.06 0 .05-.03.07-.09.07z" fill="#231F20"></path><path d="M36.41 7.176c-.23 0-.42.19-.42.42 0 .23.19.42.42.42.23 0 .42-.19.42-.42 0-.23-.19-.42-.42-.42zm0 .77c-.18 0-.34-.15-.34-.35 0-.19.15-.35.34-.35.18 0 .33.16.33.35 0 .19-.15.35-.33.35z" fill="#231F20"></path><path d="M37 12.984S27.09 19.873 8.976 23h26.023a2 2 0 002-1.984l.024-3.02L37 12.985z" fill="#F48120"></path><defs><linearGradient id="pi-paint0_linear" x1="21.657" y1="12.275" x2="19.632" y2="9.104" gradientUnits="userSpaceOnUse"><stop stop-color="#F89F20"></stop><stop offset=".25" stop-color="#F79A20"></stop><stop offset=".533" stop-color="#F68D20"></stop><stop offset=".62" stop-color="#F58720"></stop><stop offset=".723" stop-color="#F48120"></stop><stop offset="1" stop-color="#F37521"></stop></linearGradient><linearGradient id="pi-paint1_linear" x1="21.338" y1="12.232" x2="18.378" y2="6.446" gradientUnits="userSpaceOnUse"><stop stop-color="#F58720"></stop><stop offset=".359" stop-color="#E16F27"></stop><stop offset=".703" stop-color="#D4602C"></stop><stop offset=".982" stop-color="#D05B2E"></stop></linearGradient></defs></svg>
+                </li>
+            </ul>
+          </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
