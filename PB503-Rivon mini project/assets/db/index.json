@@ -1,64 +1,81 @@
 {
-    "products": [
-      {
-        "id": "1",
-        "name": "Half sleeve T-shirt",
-        "price": 46100,
-        "image": "https://example.com/images/half-sleeve-tshirt.png",
-        "hoverImage": "https://example.com/images/half-sleeve-tshirt-hover.png"
-      },
-      {
-        "id": "2",
-        "name": "Brown hat craft",
-        "price": 39200,
-        "image": "https://example.com/images/brown-hat.png",
-        "hoverImage": "https://example.com/images/brown-hat-hover.png"
-      },
-      {
-        "id": "3",
-        "name": "Slim-Fit Formal Suit Blazer",
-        "price": 38300,
-        "image": "https://example.com/images/slim-fit-blazer.png",
-        "hoverImage": "https://example.com/images/slim-fit-blazer-hover.png"
-      },
-      {
-        "id": "4",
-        "name": "Retro Tie-Dye Color Splash T-Shirt",
-        "price": 38900,
-        "image": "https://example.com/images/retro-tie-dye-tshirt.png",
-        "hoverImage": "https://example.com/images/retro-tie-dye-tshirt-hover.png"
-      },
-      {
-        "id": "5",
-        "name": "Geometric Print Relaxed Fit Tee",
-        "price": 54000,
-        "image": "https://example.com/images/geometric-print-tee.png",
-        "hoverImage": "https://example.com/images/geometric-print-tee-hover.png"
-      },
-      {
-        "id": "6",
-        "name": "Floral Pattern Colorful Summer Tee",
-        "price": 54800,
-        "oldPrice": 62800,
-        "image": "https://example.com/images/floral-pattern-tee.png",
-        "hoverImage": "https://example.com/images/floral-pattern-tee-hover.png",
-        "sale": true
-      },
-      {
-        "id": "7",
-        "name": "Black hat craft",
-        "price": 31200,
-        "image": "https://example.com/images/black-hat.png",
-        "hoverImage": "https://example.com/images/black-hat-hover.png"
-      },
-      {
-        "id": "8",
-        "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
-        "price": 46900,
-        "oldPrice": 54800,
-        "image": "https://example.com/images/warm-fit-flare-dress.png",
-        "hoverImage": "https://example.com/images/warm-fit-flare-dress-hover.png",
-        "sale": true
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": "1",
+      "name": "Half sleeve T-shirt",
+      "price": 46100,
+      "rating": 3,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_15_360x.png?v=1733810922",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_03_720x.png?v=1733810921"
+    },
+    {
+      "id": "2",
+      "name": "Brown hat craft",
+      "price": 39200,
+      "rating": 4,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_05_720x.png?v=1733818297",
+      "arrival": "new"
+    },
+    {
+      "id": "3",
+      "name": "Slim-Fit Formal Suit Blazer",
+      "price": 38300,
+      "rating": 5,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_06_360x.png?v=1733810922",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_11_720x.png?v=1733810921"
+    },
+    {
+      "id": "4",
+      "name": "Retro Tie-Dye Color Splash T-Shirt",
+      "price": 38900,
+      "rating": 3,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_12_360x.png?v=1733810921",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_02_720x.png?v=1733810921"
+    },
+    {
+      "id": "5",
+      "name": "Geometric Print Relaxed Fit Tee",
+      "rating": 3,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921"
+    },
+    {
+      "id": "6",
+      "name": "Floral Pattern Colorful Summer Tee",
+      "price": 54800,
+      "rating": 5,
+      "oldPrice": 62800,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_10_720x.png?v=1733810921",
+      "sale": true
+    },
+    {
+      "id": "7",
+      "name": "Black hat craft",
+      "price": 31200,
+      "rating": 4,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_04_720x.png?v=1733818314",
+      "arrival": "new"
+    },
+    {
+      "id": "8",
+      "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
+      "price": 46900,
+      "rating": 5,
+      "oldPrice": 54800,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_16_720x.png?v=1733810921",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921",
+      "sale": true,
+      "arrival": "new"
+    },
+    {
+      "id": "9",
+      "name": "Smooth Shine Bald Head Moisturizer",
+      "price": 48895,
+      "rating": 1,
+      "oldPrice": 24800,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_13_720x.png?v=1733810921",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921",
+      "sale": true,
+      "arrival": "new"
+    }
+  ]
+}
