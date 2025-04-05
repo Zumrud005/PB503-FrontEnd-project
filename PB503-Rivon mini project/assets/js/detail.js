@@ -182,18 +182,18 @@ function saveWishlistToLocalStorage() {
 function updateWishlistCounter() {
     const counterElement = document.getElementById("wishlistCount");
     if (counterElement) {
-        counterElement.textContent = wishlist.size; 
+        counterElement.textContent = wishlist.size;
+    }
 }
+
 
 document.addEventListener("DOMContentLoaded", function () {
     loadWishlistFromLocalStorage();  
     updateWishlistCounter();  
 });
 
-
 function addToWishlist(itemId) {
     wishlist.add(itemId.toString());
     saveWishlistToLocalStorage(); 
     updateWishlistCounter(); 
-}
 }
