@@ -9,7 +9,7 @@ document.querySelectorAll('.accordion-header').forEach(button => {
 
 async function fetchProducts() {
     try {
-        const response = await fetch("http://localhost:3000/products");
+        const response = await fetch("https://rivon-api.vercel.app/products");
         const products = await response.json();
 
         displayRecommendProducts(products);
@@ -115,7 +115,7 @@ function getProductIdFromURL() {
 
 async function fetchProductById(id) {
     try {
-        const response = await fetch(`http://localhost:3000/products/${id}`);
+        const response = await fetch(`https://rivon-api.vercel.app/products/${id}`);
         if (!response.ok) throw new Error("Product not found");
         const product = await response.json();
         displayProductDetail(product);
@@ -182,19 +182,18 @@ function saveWishlistToLocalStorage() {
 function updateWishlistCounter() {
     const counterElement = document.getElementById("wishlistCount");
     if (counterElement) {
-        counterElement.textContent = wishlist.size; // Update the counter
-    }
+        counterElement.textContent = wishlist.size; 
 }
 
-// Ensure to load the wishlist when the page is loaded
 document.addEventListener("DOMContentLoaded", function () {
-    loadWishlistFromLocalStorage();  // Load from localStorage
-    updateWishlistCounter();  // Update the wishlist counter
+    loadWishlistFromLocalStorage();  
+    updateWishlistCounter();  
 });
 
-// If you have actions where you add an item to the wishlist, you can use this function:
+
 function addToWishlist(itemId) {
-    wishlist.add(itemId.toString()); // Add item to the set
-    saveWishlistToLocalStorage(); // Save to localStorage
-    updateWishlistCounter(); // Update counter
+    wishlist.add(itemId.toString());
+    saveWishlistToLocalStorage(); 
+    updateWishlistCounter(); 
+}
 }
