@@ -5,6 +5,7 @@
       "name": "Half sleeve T-shirt",
       "price": 46100,
       "rating": 3,
+      "recommended": true,
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_15_360x.png?v=1733810922",
       "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_03_720x.png?v=1733810921"
     },
@@ -21,6 +22,7 @@
       "name": "Slim-Fit Formal Suit Blazer",
       "price": 38300,
       "rating": 5,
+      "recommended": true,
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_06_360x.png?v=1733810922",
       "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_11_720x.png?v=1733810921"
     },
@@ -30,12 +32,14 @@
       "price": 38900,
       "rating": 3,
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_12_360x.png?v=1733810921",
-      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_02_720x.png?v=1733810921"
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_02_720x.png?v=1733810921",
+      "recently": true
     },
     {
       "id": "5",
       "name": "Geometric Print Relaxed Fit Tee",
       "rating": 3,
+      "recommended": true,
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921"
     },
     {
@@ -45,7 +49,8 @@
       "rating": 5,
       "oldPrice": 62800,
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_10_720x.png?v=1733810921",
-      "sale": true
+      "sale": true,
+      "recently": true
     },
     {
       "id": "7",
@@ -53,7 +58,8 @@
       "price": 31200,
       "rating": 4,
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_04_720x.png?v=1733818314",
-      "arrival": "new"
+      "arrival": "new",
+      "recently": true
     },
     {
       "id": "8",
@@ -64,7 +70,8 @@
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_16_720x.png?v=1733810921",
       "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921",
       "sale": true,
-      "arrival": "new"
+      "arrival": "new",
+      "recently": true
     },
     {
       "id": "9",
@@ -72,6 +79,7 @@
       "price": 48895,
       "rating": 1,
       "oldPrice": 24800,
+      "recommended": true,
       "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_13_720x.png?v=1733810921",
       "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921",
       "sale": true,
